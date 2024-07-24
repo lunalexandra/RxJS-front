@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: auto;
+}
+
+:root {
+  --color: #6d6c69;
+}
+
+body {
+  background-color: #ddeaf7;
+}
+.container {
+  background-color: #ffffff;
+  margin-top: 50px;
+  width: 50%;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.title {
+  background-color: inherit;
+  font-size: 20px;
+}
+
+.emails-list {
+background-color: white;
+min-height: 20px;
+margin-top: 20px;
+}
+
+.new-email{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: -1px;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid black;
+}
